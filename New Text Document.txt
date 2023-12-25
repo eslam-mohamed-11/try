@@ -1,0 +1,19 @@
+ git init
+
+ git checkout -b <name>
+
+ git add .
+
+ git commit -m "comment"
+
+ git config --global user.email "you@example.com"
+
+ git config --global user.name "Your Name"
+
+ git remote add origin <link from Github>
+
+ git push -u origin <name of branch>
+
+ git pull
+
+ 
