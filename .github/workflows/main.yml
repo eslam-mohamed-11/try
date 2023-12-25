@@ -16,7 +16,7 @@ jobs:
               run: docker build -t ${{ secrets.DOCKER_USERNAME }}/eslam11 .
               
             - name: 'pushing to docker hub'
-              run: docker push ${{ secrets.DDOCKER_USERNAME }}/eslam11
+              run: docker push ${{ secrets.DOCKER_USERNAME }}/eslam11
 
 
 
